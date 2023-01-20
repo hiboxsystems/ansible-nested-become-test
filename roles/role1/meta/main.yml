@@ -1,0 +1,3 @@
+# Note: deliberately not using `become: true`
+dependencies:
+  - role: role2

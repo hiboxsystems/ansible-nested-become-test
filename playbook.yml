@@ -1,0 +1,5 @@
+- name: Runs role1
+  hosts: all
+
+  roles:
+    - role1
