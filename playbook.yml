@@ -1,5 +1,6 @@
 - name: Runs role1
   hosts: all
 
-  roles:
-    - role1
+  tasks:
+    - include_role:
+        name: role1
